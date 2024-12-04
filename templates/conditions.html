@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        
+        <h1> conditions </h1>
+        <!--
+        {% if age > 10 %}
+            <h1>{{age}}</h1>
+        {% endif %}
+        
+        {% if age > 18 %}
+            <h1>{{name}} eligible to vote</h1>
+        {% else %}
+            <h1>{{name}} not eligible to vote</h1>
+        {% endif %}
+        
+        {% if age < 19 %}
+            <h1>Teenage</h1>
+        {% elif age > 20 and age < 28 %}
+            <h1>Youth</h1>
+        {% elif age > 28 and age < 40 %}
+            <h1>Adult</h1>
+        {% elif age > 41 and age < 60 %}
+            <h1>Middle aged</h1>
+        {% else %}
+            <h1>Old</h1>
+        {% endif %}
+        
+        {% if age > 10 %}
+            {% if age > 18 %}
+                <h1>eligible</h1>
+            {% else %}
+                <h1>no</h1>
+            {% endif %}
+        {% endif %}
+        -->
+        {% for i in name %}
+            <h1>{{i}}</h1>
+        {% endfor %}
+    </center>
+</body>
+</html>
